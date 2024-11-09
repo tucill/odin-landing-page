@@ -1,0 +1,13 @@
+:root {
+  ---fontUsed: Roboto;
+  --primary: #1f2937;
+  --secondary: #e5e7eb;
+  --btnColor: #3882f6;
+}
+
+/* Css reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
