@@ -16,10 +16,6 @@ html {
   font-family: var(---fontUsed);
 }
 
-body {
-  height: 10000px;
-}
-
 /* Header */
 header {
   background-color: var(--primary);
@@ -162,4 +158,42 @@ header {
   color: var(--primary);
   font-size: 18px;
   font-weight: bold;
+}
+
+/* Conservation */
+.conservation {
+  width: 100%;
+  height: 50vh;
+  padding: 0 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.conservation .container {
+  background-color: var(--btnColor);
+  padding: 1.2rem 5rem;
+  border-radius: 0.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.conservation .container .text-content h3 {
+  color: #f9faf8;
+  font-size: 18px;
+}
+
+.conservation .container .text-content p {
+  color: var(--secondary);
+  font-size: 16px;
+}
+
+.conservation .container .cta {
+  background: none;
+  color: var(--secondary);
+  padding: 5px 15px;
+  border: 1px solid var(--secondary);
+  border-radius: 0.3rem;
+  cursor: pointer;
 }
